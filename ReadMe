@@ -1,0 +1,6 @@
+Strassen's multiplication is faster than the standard matrix multiplication.
+Strassen's has a time complexity of around O(n^2.81) whereas native multiplication's complexity is O(n^3)
+This is because number of multiplications required in strassen's is less.
+in the example of multiplying two 2x2 matrices:
+Native multiplication will require 8 Multiplications and 4 additions
+while Strassen's will require 7 multiplications and 18 additions.
